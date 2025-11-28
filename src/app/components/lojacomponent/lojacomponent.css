@@ -1,0 +1,102 @@
+.loja-container {
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* SOBRE */
+.sobre h2, .visita h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sobre p {
+  text-align: center;
+  max-width: 680px;
+  margin: 10px auto;
+  color: #444;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f7f7f7;
+  padding: 15px;
+  width: 300px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px #0002;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* VISITA */
+.visita {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.visita p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.visita button {
+  padding: 12px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.visita button:hover {
+  background: #333;
+}

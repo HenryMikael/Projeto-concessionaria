@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router'; 
+import { Lojacomponent } from '../../app/components/lojacomponent/lojacomponent';
+
 
 @Component({
   selector: 'app-loja',
-  imports: [RouterLink ,RouterLinkActive],
+  imports: [Lojacomponent],
   templateUrl: './loja.html',
   styleUrl: './loja.css',
 })

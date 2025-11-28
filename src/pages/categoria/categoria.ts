@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { Categoriacomponent } from '../../app/components/categoriacomponent/categoriacomponent';
 
 @Component({
   selector: 'app-categoria',
-  imports: [],
+  imports: [Categoriacomponent],
   templateUrl: './categoria.html',
   styleUrl: './categoria.css',
 })
