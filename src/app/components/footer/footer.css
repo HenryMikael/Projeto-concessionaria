@@ -1,0 +1,53 @@
+.footercomp {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 60px;
+  border-top: 1px solid #222;
+}
+
+.footercomp .social {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footercomp h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footercomp .github,
+.footercomp .repo {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footercomp button {
+  background-color: #ff4e00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+
+.footercomp button:hover {
+  transform: translateY(-3px);
+  background-color: #ff6f1a;
+}
+
+.footercomp button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footercomp button:active {
+  transform: scale(0.95);
+}
